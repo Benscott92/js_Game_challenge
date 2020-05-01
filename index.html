@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Game Challenge</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <h1>My JS Game</h1>
+                <div id="reset-container">
+                    <audio id="reset-sound" src="http://slackwise.net/files/music/Gundam%20Wing%20Sounds/Gundam%20Warning%20Beep.mp3"></audio>
+                    <button id="reset-button">RESET</button><br>
+                    NUMBER OF RESETS: <span id="num-resets">0</span>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="left">
+                <h2>
+                    Team 1
+                </h2>
+                <div class="goals">
+                    SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+                    GOALS: <span id="teamone-numgoals">0</span>
+                </div>
+                <div>
+                    <audio class="shot-sound" src="http://slackwise.net/files/music/Gundam%20Wing%20Sounds/Gun%20Shot%2001.mp3"></audio>
+                    <button id="teamone-shoot-button">SHOOT</button>
+                </div>
+            </div>
+            <div class="right">
+                <h2>
+                    Team 2
+                </h2>
+                <div class="goals">
+                    SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+                    GOALS: <span id="teamtwo-numgoals">0</span>
+                </div>
+                <div>
+                    <audio class="shot-sound" src="http://slackwise.net/files/music/Gundam%20Wing%20Sounds/Gun%20Shot%2001.mp3"></audio>
+                    <button id="teamtwo-shoot-button">SHOOT</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <script src="./assets/javascript/game.js"></script>
+    </body>
+</html>
+</body>
+</html>
